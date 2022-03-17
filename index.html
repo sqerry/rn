@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>RN | Robert Nguyen</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Space+Mono&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/acb12ed120.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+</head>
+<body>
+<main>
+    <header>
+        <a href="#" class="logo"><h1>RN.</h1></a>
+        <a href="./upload/nguyen_fe_cv.pdf" class="btn" target="_blank">Resume</a>
+    </header>
+    <section class="hero container">
+        <div class="tagline">Ahoj, jmenuji se</div>
+        <h2 class = "big-heading">Robert Nguyen</h2>
+        <h3 class = "big-heading">Buduju věci pro web.</h3>
+        <p>Jsem webový vývojář specializovaný v budování a designování výjimečných
+            digitálních zážitků. </p>
+        <a href="#contact" class="btn">Kontaktujte mě</a>
+    </section>
+    <section class="about-me">
+        <h2 class = "align-left heading featured-heading h"><i class="ri-user-smile-line"></i><span>Něco o mě</span></h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>Ahoj! Jmenuju se Robert Nguyen, jsem z Plzně a rád vytvářím věci pro internet. </p>
+                <p>Zabývám se tvorbou webových stránek. Kóduji HTML/CSS šablony na míru či vytvářím webové stránky pomocí redakčního systému Wordpress. Umím vytvářet i e-shopy! Kontkrétně na platformě Shoptet. </p>
+                <p>K tvorbě šablon používám technologie:</p>
+                <ul class="skill-list">
+                    <li>Javascript (ES6+)</li>
+                    <li>Bootstrap</li>
+                    <li>CSS / SCSS</li>
+                    <li>Adobe XD / Figma</li>
+                    <li>Shoptet</li>
+                    <li>Wordpress</li>
+                </ul>
+            </div>
+
+            <div class="about-image">
+                <img src="./img/profile.jpg" alt="">
+            </div>
+        </div>
+    </section>
+    <section class="featured-projects container">
+        <h2 class = "align-left heading featured-heading h"><i class="ri-briefcase-line"></i><span>Nějaké me projekty</span></h2>
+        <div class="featured-project__item">
+            <div class="featured-project__item-image">
+                <a href="https://www.bamboolik.cz/" target="_blank"><img src="./img/bamboolik.png" alt="" class="featured-image"></a>
+            </div>
+            <div class="featured-project__content">
+                <div class="tagline">Shoptet</div>
+                <h2 class="heading">Bamboolík</h2>
+                <div class="text-content">
+                    Přestylování šablony <a href="https://merkur.paxio.cz/" target="_blank">Merkur</a> podle grafického návrhu ve dvou jazykových mutacích. Stylování celého frontendu. Programování řada funkcí včetně odlišného zobrazení
+                    pro B2B zákazníky.
+                </div>
+                <ul class="project-tech-list">
+                    <li>Kódování</li>
+                    <li>Programování</li>
+                    <li>Less</li>
+                    <li>Shoptet Premium</li>
+                </ul>
+                <a href="https://www.bamboolik.cz/" target="_blank">
+                    <i class="ri-external-link-line"></i>
+                </a>
+            </div>
+        </div>
+        <div class="featured-project__item featured-left">
+            <div class="featured-project__item-image">
+                <a href="https://www.liviny.cz/" target="_blank"><img src="./img/liviny.png" alt="" class="featured-image"></a>
+            </div>
+            <div class="featured-project__content">
+                <div class="tagline">Shoptet</div>
+                <h2 class="heading">Liviny</h2>
+                <div class="text-content">
+                    Kompletní přestylování šablony <a href="https://classic.shoptet.cz/" target="_blank">Classic</a> podle grafického návrhu. Řada individuálních funkcí například dynamické
+                    zobrazení náhledových obrázků, popisků a nadpisů u produktů na úvodní stránce z dat administrace Shoptet.
+
+                </div>
+                <ul class="project-tech-list">
+                    <li>Kódování</li>
+                    <li>Programování</li>
+                </ul>
+                <a href="https://www.liviny.cz/" target="_blank">
+                    <i class="ri-external-link-line"></i>
+                </a>
+            </div>
+        </div>
+
+    </section>
+    <section class="project-container container">
+        <h2 class = "heading">Projekty</h2>
+        <span class = "tagline">rozvojové projekty</span>
+        <ul class="filter-menu">
+            <li data-target="all" class = "current">Vše</li>
+            <li data-target="css">HTML & CSS</li>
+            <li data-target="js">JS</li>
+            <li data-target="api">API</li>
+        </ul>
+        <ul class="project-grid">
+            <li class="project__grid-item" data-item="js">
+                <a href="https://tip-calculator-app-main-seven.vercel.app/" target="_blank">
+                    <img src="./img/tipcalc.jpg" alt="">
+                <h3 class="project-title">Tip calculator</h3>
+                <div class="project-description">
+                    <p>Aplikace pro výpočet dýška podle počtu osob a procent dýška<br>
+                    </p>
+                </div>
+                <div class="project-bottom">
+                    <ul class="project-tech-list">
+                        <li>Scss</li>
+                        <li>Js</li>
+                    </ul>
+                </div>
+                </a>
+            </li>
+            <li class="project__grid-item" data-item="js">
+                <a href="https://codepen.io/sqerry-the-vuer/pen/KKyKERm" target="_blank">
+                    <img src="./img/passgen.png" alt="">
+                    <h3 class="project-title">Generátor hesla</h3>
+                    <div class="project-description">
+                        <p>Možnost si vygenerovat heslo podle různých kritérií</p>
+                        <br>
+                        <p>- používání array funkce filter</p>
+                        <p>- používání objektů</p>
+                    </div>
+                    <div class="project-bottom">
+                        <ul class="project-tech-list">
+                            <li>Js</li>
+                        </ul>
+                    </div>
+                </a>
+            </li>
+            <li class="project__grid-item" data-item="css">
+                <a href="https://soc-media-dashboard.vercel.app/" target="_blank">
+                    <img src="./img/soc.jpg" alt="">
+                    <h3 class="project-title">SOC komponent</h3>
+                    <div class="project-description">
+                        <p>Komponenta pro sociální sítě. Specialitka je přepínání na tmavý/světlý režím podle uživatelských systémových preferencí</p><br>
+                        <p>Použití normalize.css, BEM, mixiny, velké užití Scss</p>
+                    </div>
+                    <div class="project-bottom">
+                        <ul class="project-tech-list">
+                            <li>Scss</li>
+                            <li>BEM</li>
+                            <li>Js</li>
+                        </ul>
+                    </div>
+                </a>
+            </li>
+            <li class="project__grid-item" data-item="css">
+                <a href="https://codepen.io/sqerry-the-vuer/pen/XWzBKQa" target="_blank">
+                    <img src="./img/Screenshot_29.png" alt="">
+                    <h3 class="project-title">User grid komponent</h3>
+                    <div class="project-description">
+                        <p>- Pro účel procvičení CSS Grid a grid template areas</p>
+                    </div>
+                    <div class="project-bottom">
+                        <ul class="project-tech-list">
+                            <li>CSS</li>
+                            <li>CSS Grid</li>
+                        </ul>
+                    </div>
+                </a>
+            </li>
+            <li class="project__grid-item" data-item="css">
+                <a href=https://sunny-landing-page-one.vercel.app/" target="_blank">
+                    <img src="./img/sunny.png" alt="">
+                    <h3 class="project-title">Landing page</h3>
+                    <div class="project-description">
+                        <p>Použití vlastních utility tříd, používání relativních jednotek, mobile first</p>
+                    </div>
+                    <div class="project-bottom">
+                        <ul class="project-tech-list">
+                            <li>Scss</li>
+                            <li>BEM</li>
+                        </ul>
+                    </div>
+                </a>
+            </li>
+            <li class="project__grid-item" data-item="api">
+                <a href="https://ip-adress-tracker-black.vercel.app/" target="_blank">
+                    <img src="./img/iptracker.png" alt="">
+                    <h3 class="project-title">Lokace podle IP adresy</h3>
+                    <div class="project-description">
+                        <p>Aplikace pro vyhledání lokace dle zadané IPv4 nebo IPv6 adresy</p><br>
+                        <p>
+                            - Fetch API</p>
+                        <p>   - použití LeafletJs</p>
+                        <p>
+                            - použití Ipify API</p>
+
+                    </div>
+                    <div class="project-bottom">
+                        <ul class="project-tech-list">
+                            <li>API</li>
+                            <li>Js</li>
+                        </ul>
+                    </div>
+                </a>
+            </li>
+            <li class="project__grid-item" data-item="js">
+                <a href="https://pomodoro-timer-main-omega.vercel.app/" target="_blank">
+                    <img src="./img/pomodoro.png" alt="">
+                    <h3 class="project-title">Pomodoro timer</h3>
+                    <div class="project-description">
+                        <p>Aplikace pro časování aktivit metodou Pomodoro cyklů</p>
+                        <br>
+                        <p>- Práce s časem</p>
+                        <p>- Práce se zvuky</p>
+                    </div>
+                    <div class="project-bottom">
+                        <ul class="project-tech-list">
+                            <li>Scss</li>
+                            <li>Js</li>
+                        </ul>
+                    </div>
+                </a>
+            </li>
+            <li class="project__grid-item" data-item="js">
+                <a href="https://pig-game-delta.vercel.app/" target="_blank">
+                    <img src="./img/piggame.png" alt="">
+                    <h3 class="project-title">Pig game</h3>
+                    <div class="project-description">
+                        <p>Hra ve které se 2 hráči snaží získat 100 bodů první. Zpracováno v rámci
+                            The Complete JavaScript Course 2022</p>
+                    </div>
+                    <div class="project-bottom">
+                        <ul class="project-tech-list">
+                            <li>Js</li>
+                        </ul>
+                    </div>
+                </a>
+            </li>
+            <li class="project__grid-item" data-item="css">
+                <a href="#">
+                    <img src="./img/Screenshot_28.png" alt="">
+                    <h3 class="project-title">Portfolio</h3>
+                    <div class="project-description">
+                        <p>- Práce s filtrací</p>
+                        <p>- Chytřejší způsob jak dodržet layout</p>
+                    </div>
+                    <div class="project-bottom">
+                        <ul class="project-tech-list">
+                            <li>Js</li>
+                            <li>CSS</li>
+                        </ul>
+                    </div>
+                </a>
+            </li>
+
+
+        </ul>
+
+    </section>
+    <section class="contact container" id = "contact">
+        <div class="tagline">Co teď?</div>
+        <h1 class="big-heading">Kontukjte mě!</h1>
+        <p>Máte zájem o spolupráci? Potřebujete něco objasnit?</p>
+        <p> Neváhejte mě kdykoliv kontaktovat!</p>
+        <div class="contacts">
+            <a href="mailto:nrobern@gmail.com" class="email underline-hover">nrobern@gmail.com</a>
+            <a href="tel:+420792 543 374 " class="tel underline-hover">792 543 374 </a>
+        </div>
+    </section>
+</main>
+
+</body>
+
+</html>
+<script src="app.js"></script>
